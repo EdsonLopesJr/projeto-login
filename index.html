@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <title>Login</title>
@@ -16,8 +17,22 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis recusandae deserunt maiores nesciunt expedita, vero quisquam ipsum dolores esse cum dolorem illum sunt enim. Saepe deserunt fugit soluta suscipit animi.</p>
-                <form action="login.php" method="post"></form>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required>
+                        <label for="ilogin">Login: </label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8">
+                        <label for="isenha">Senha: </label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+                </form>
+
             </div>
         </section>
     </main>
