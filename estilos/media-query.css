@@ -5,8 +5,12 @@
     body {
         background-image: linear-gradient(to top, #c0c0c0, #48d1cc, #008b8b);
     }
+
+   
     section#login {
         width: 80vw;
+        padding: 10% 10px;
+
     }
     
     section#login > div#foto {
@@ -32,6 +36,7 @@
 
     section#login {
         width: 950px;
+        padding: 50px 10px;
     }
     
     section#login > div#foto {
